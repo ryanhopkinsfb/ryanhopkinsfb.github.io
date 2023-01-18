@@ -1,0 +1,98 @@
+body, h1, h2, h3, p, td, div, input, select, option, a, li, ul {
+	font-size: 10pt
+}
+.module-title {
+    font-size: 0
+}
+.stage {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stage_inner {
+    display: table-cell;
+    min-height: 100px;
+    vertical-align: middle;
+}
+.sideNav {
+    display: none;
+    width: 0px;
+    visibility: hidden;
+}
+.topbotNav {
+    display: block;
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    visibility: visible;
+    text-align: center;
+}
+.fullheight,
+.flashObject,
+.flashObjectImage,
+.fullheight90,
+.flashObject90,
+.flashObjectImage90,
+.fullheight80,
+.flashObject80,
+.flashObjectImage80,
+.fullheight70,
+.flashObject70,
+.flashObjectImage70,
+.fullheight60,
+.flashObject60,
+.flashObjectImage60,
+.fullheight50,
+.flashObject50,
+.flashObjectImage50 {
+    height: auto;
+}
+.content_inner {
+    min-height: 100px;
+}
+.modlbl {
+    display: none;
+    visibility: hidden;
+    width: 0px;
+}
+;
+.createdFor {
+    display: inline-block;
+    visibility: visible;
+}
+.responsive-menu,
+.resp-menu-item,
+.expand {
+    width: 300px;
+}
+.contentblock80,
+.contentblock75,
+.contentblock67,
+.contentblock60,
+.contentblock50,
+.contentblock40,
+.contentblock37,
+.contentblock33,
+.contentblock25,
+.contentblock20 {
+    display: block;
+    width: 100%;
+}
+.contentblock80hide.
+.contentblock75hide.
+.contentblock67hide,
+.contentblock60hide,
+.contentblock50hide,
+.contentblock40hide,
+.contentblock37hide,
+.contentblock33hide,
+.contentblock25hide,
+.contentblock20hide,
+.background-container,
+.background-content {
+    display: none;
+}
+.scrollpane {
+    overflow-x: hidden; overflow-y: visible
+}

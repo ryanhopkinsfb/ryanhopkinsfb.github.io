@@ -1,0 +1,264 @@
+*:focus {outline:1px solid #000099}
+
+#timeLeftContainer {
+	margin:0;padding:10px;text-align:right;visibility:hidden;
+}
+
+a.assessmentButton, a.assessmentButton:link, a.assessmentButton:active, a.assessmentButton:disabled, a.assessmentButton:hover:not([disabled]) {
+	text-decoration:none;
+	display:inline-block;
+}
+a.hbbutton, input.hbbutton[type=button] {
+	border-width:0px 0px 0px 20px;
+	border-style:solid;
+	background-color:#eaeaea;
+	padding:5px 5px 5px 20px;
+	margin:0px 0px 1px 0px;
+	width:100%;
+	text-align:left;
+	font-size: 0.8em;
+	border-radius: 0;
+	display:block;
+	text-decoration:none;
+}
+a.hbbutton:disabled, input.hbbutton[type=button]:disabled {
+	color:inherit;
+	cursor:not-allowed;
+}
+a.hbbutton:hover:not([disabled]), input.hbbutton[type=button]:hover:not([disabled]) {
+	background-color:#ffffff;
+}
+a.hbsubsection, input.hbsubsection[type=button] {
+	padding-left:40px;	
+}
+a.hbcurrent, input.hbcurrent[type=button] {
+	font-weight:bold;	
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.scr_layout_table {
+	display:table;
+	border:0;
+	margin:0;
+	padding:0;
+	table-layout:fixed;
+	width:100%;
+}
+.scr_layout_row {
+	display:table-row;	
+}
+.scr_layout_cell {
+	display:table-cell;
+	text-align:left;
+}
+
+.hideinaccessible {
+	display:none;
+}
+.showinaccessible {
+	display:block;
+}
+.tooltipContent {
+    background-color: #eaeaea;
+    left: -80px;
+    border: 0;
+    font-size: 10pt;
+    padding: 5px;
+}
+.datePicker, .ui-icon, .ui-state-default {
+	font-size: 10pt;
+}
+.menu-btn {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    vertical-align: middle;
+    z-index: 99;
+    text-align: left;
+}
+.responsive-menu {
+    display: none;
+    z-index: 99;
+    width: 1150px;
+	position:absolute;
+	left:0px;
+}
+.resp-menu-item {
+    text-align: left;
+    width: 1150px;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.expand {
+    display: block !important;
+    z-index: 99;
+    width: 1150px;
+}
+#linkedResourcesListWrapper {
+	float: left; 
+	position: absolute; 
+	vertical-align:middle; 
+	text-align: left; 
+	z-index: 100; 
+	width: 300px; 
+	right: 0px; 
+	border: 1px solid #000000; 
+	padding: 0px;
+	background-color: #eeeeee;
+}
+.linkedResourcesList {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.linkedResourcesListItem {
+    width: 290px;
+    padding: 5px;  
+    display: inline-block;
+    font-size: 9pt;
+}
+.modlbl {
+    display: none;
+    visibility: hidden;
+    width: 0px;
+}
+.sideNav {
+    display: none;
+    width: 0px;
+    visibility: hidden;
+}
+.topbotNav {
+    display: block;
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+    visibility: visible;
+    text-align: center;
+}
+.stage {
+    display: table;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+}
+.stage_inner {
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+}
+.banner {
+    display: block;
+    width: 100%;
+}
+.banner_left {
+	display: inline-block;
+	width:70%;
+	vertical-align: top;
+	text-align: left;
+}
+.banner_right {
+	display: inline-block;
+	width:30%;
+	vertical-align: top;
+	text-align: right;
+}
+.content {
+    display: block;
+    width: 100%;
+}
+.hideonsmall {
+    display: none;
+}
+.hideonlarge {
+    display: block;
+}
+.fullheight,
+.flashObject,
+.flashObjectImage,
+.fullheight90,
+.flashObject90,
+.flashObjectImage90,
+.fullheight80,
+.flashObject80,
+.flashObjectImage80,
+.fullheight70,
+.flashObject70,
+.flashObjectImage70,
+.fullheight60,
+.flashObject60,
+.flashObjectImage60,
+.fullheight50,
+.flashObject50,
+.flashObjectImage50 {
+    height: auto;
+}
+.scrollpane {
+    overflow-x: hidden; overflow-y: visible;
+}
+.background-container,
+.background-content {
+    display:none;
+}
+img {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 0;
+}
+h1, h2, h3, p {
+    font-size: 16pt;
+    margin-top: 0;
+}
+body, td, div, input, select, option, a, li, ul, textarea {
+    font-size: 16pt;
+}
+.createdFor {
+    display: inline-block;
+    visibility: visible;
+}
+.contentblock90,
+.contentblock80,
+.contentblock75,
+.contentblock67,
+.contentblock60,
+.contentblock50,
+.contentblock40,
+.contentblock37,
+.contentblock33,
+.contentblock25,
+.contentblock20,
+.contentblock10 {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+.contentblock90hide,
+.contentblock80hide,
+.contentblock75hide,
+.contentblock67hide,
+.contentblock60hide,
+.contentblock50hide,
+.contentblock40hide,
+.contentblock37hide,
+.contentblock33hide,
+.contentblock25hide,
+.contentblock20hide,
+.contentblock10hide {
+    display: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+    display: inline-block;
+    outline-color: #000000;
+    outline-style: solid;
+    outline-width: thick;
+}

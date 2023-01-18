@@ -1,0 +1,130 @@
+
+#elem_1343 {
+    
+                display:inline-block;
+            
+            width:35%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1343_align {
+    position:relative;
+    
+            left:0px;
+            visibility:hidden;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1343_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1343 {display:block; width:100%;}
+    
+}
+#elem_1288 {
+    
+            display:inline-block;
+        
+            width:65%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1288_align {
+    position:relative;
+    
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1288_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1288 {display:block; width:100%;}
+    
+}
+#elem_1344 {
+    
+                display:inline-block;
+            
+            width:100%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1344_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1344_inner {
+    display:block;
+    
+        margin-bottom:0px;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1344 {display:block; width:100%;}
+    
+}
+#elem_1330 {
+    
+                display:inline-block;
+            
+            width:100%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1330_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1330_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1330 {display:block; width:100%;}
+    
+}

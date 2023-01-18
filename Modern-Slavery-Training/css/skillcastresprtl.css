@@ -1,0 +1,89 @@
+#nextBtnImage, #backBtnImage {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+.title-bar {
+	float:right;
+	text-align:right;
+}
+.page-number {
+	float:left;
+	text-align:left;
+}
+.banner_left {
+	text-align:right;
+}
+.banner_right {
+	text-align:left;
+}
+.responsive-menu {
+	left:auto;
+	right:0px;
+}
+#linkedResourcesListWrapper {
+	left:0px;
+	right:auto;
+}
+.title-course-iexpress
+, .narrative
+, .narrative-reversed
+, .user-instruction
+, .mcq-question
+, .mcq-option
+, .mcq-explanation
+, .newspaper-body
+, .newspaper-title
+, .learning-objective
+, .custom
+, .speech-bubble
+, .speech-bubble2
+, .custombtn
+, .custombtn-other-ready
+, .custombtn-clicked-active
+, .custombtn-clicked-inactive
+, .title-bar
+, .title-page
+, .title-page-reversed
+, div.subMenu-item
+, div.menu-item
+, .narrative-additional
+, .narrative-additional-table
+, .footnote
+, .regulation-body
+, .speech-color1 
+, .speech-color2
+, .speech-extender-right
+, .custombtn
+, .custombtn-other-ready
+, .custombtn-clicked-active
+, .custombtn-clicked-inactive
+, .custombtn-iexpress-accordion
+, .custombtn-iexpress-accordion-clicked-active
+, .custombtn-iexpress-accordion-clicked-inactive
+, .btnclicktoreveal
+, .btnclicktoreveal-other-ready
+, .btnclicktoreveal-clicked-active
+, .btnclicktoreveal-clicked-inactive
+, .btnaccordion
+, .btnaccordion-other-ready
+, .btnaccordion-clicked-active
+, .btnaccordion-clicked-inactive
+, .btnaccordionmcq
+, .btnaccordionmcq-other-ready
+, .btnaccordionmcq-clicked-active
+, .btnaccordionmcq-clicked-inactive
+, .btnaccordionmcq-clicked-do
+, .btnaccordionmcq-clicked-dont
+, .btnaccordionmcq-clicked-maybe
+, .speechbub-color1
+, .speechbub-color2
+, .speechbub-color3
+, .narrative-section
+, .DDDrop
+, .DDDrag {text-align:right}
+
+
+

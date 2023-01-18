@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+			
+				<manifest identifier="Skillcast.6BDEBEC9-B7BE-305C-A9C719BFEE9C3EB1" version="1"
+				xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+				xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd 
+					http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd 
+					http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+			
+				<metadata>
+					
+						<schema>ADL SCORM</schema>
+						<schemaversion>1.2</schemaversion>
+						<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+					
+					<general>
+						<keyword>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</keyword>
+						<title>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</title>
+						<catalogentry>
+							<catalog>Skillcast</catalog> 
+							<entry><langstring xml:lang="en">6BDEBEC9-B7BE-305C-A9C719BFEE9C3EB1</langstring></entry>
+						</catalogentry>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<structure>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Hierarchical</langstring>
+						  </value>
+						</structure>
+						<aggregationlevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">2</langstring>
+						  </value>
+						</aggregationlevel>
+					  </general>
+					  <lifecycle>
+						<version>
+						  <langstring xml:lang="en">1.0</langstring>
+						</version>
+						
+						  <contribute>
+							<role>
+							  <source>
+								<langstring xml:lang="x-none">LOMv1.0</langstring>
+							  </source>
+							  <value>
+								<langstring xml:lang="en">Author</langstring>
+							  </value>
+							</role>
+							<centity>
+							  <vcard>begin:vcard
+fn:Skillcast
+end:vcard</vcard>
+							</centity>
+						  </contribute>
+						
+						<status>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Final</langstring>
+						  </value>
+						</status>
+					  </lifecycle>
+					  <metametadata>
+						<metadatascheme>1.00</metadatascheme>
+						<language>en</language>
+					  </metametadata>
+					  <technical>
+						<format>text/html</format>
+						<location>start.htm</location>
+						<requirement>
+						  <type>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Browser</langstring>
+							</value>
+						  </type>
+						  <name>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Any</langstring>
+							</value>
+						  </name>
+						  <minimumversion>5.x</minimumversion>
+						</requirement>
+						<installationremarks>
+						  <langstring xml:lang="en"></langstring>
+						</installationremarks>
+						<otherplatformrequirements>
+						  <langstring xml:lang="en"></langstring>
+						</otherplatformrequirements>
+						<duration>
+						  <datetime>00:45:00</datetime>
+						</duration>
+					  </technical>
+					  <educational>
+						<interactivitytype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Mixed</langstring>
+						  </value>
+						</interactivitytype>
+						<learningresourcetype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Exercise</langstring>
+						  </value>
+						</learningresourcetype>
+						<interactivitylevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</interactivitylevel>
+						<semanticdensity>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">high</langstring>
+						  </value>
+						</semanticdensity>
+						<intendedenduserrole>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Learner</langstring>
+						  </value>
+						</intendedenduserrole>
+						<context>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Professional Formation</langstring>
+						  </value>
+						</context>
+						<difficulty>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</difficulty>
+						<typicallearningtime>
+						  <datetime>00:45:00</datetime>
+						</typicallearningtime>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+					  </educational>
+					  <rights>
+						<cost>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">no</langstring>
+						  </value>
+						</cost>
+						<copyrightandotherrestrictions>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">yes</langstring>
+						  </value>
+						</copyrightandotherrestrictions>
+						<description>
+						  <langstring xml:lang="en"></langstring>
+						</description>
+					  </rights>
+					  <classification>
+						<purpose>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Educational Objective</langstring>
+						  </value>
+						</purpose>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<keyword>
+						  <langstring xml:lang="x-none">Modern Slavery</langstring>
+						</keyword>
+					  </classification>
+					</lom>
+				</metadata>
+				
+			<organizations default="C001">
+				
+					<organization identifier="C001">
+				
+					<title>Modern Slavery</title>
+					<item identifier="I_A001" identifierref="A001">
+						<title>Modern Slavery</title>
+						
+				<metadata>
+					
+						<schema>ADL SCORM</schema>
+						<schemaversion>1.2</schemaversion>
+						<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+					
+					<general>
+						<keyword>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</keyword>
+						<title>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</title>
+						<catalogentry>
+							<catalog>Skillcast</catalog> 
+							<entry><langstring xml:lang="en">6BDEBEC9-B7BE-305C-A9C719BFEE9C3EB1</langstring></entry>
+						</catalogentry>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<structure>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Hierarchical</langstring>
+						  </value>
+						</structure>
+						<aggregationlevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">2</langstring>
+						  </value>
+						</aggregationlevel>
+					  </general>
+					  <lifecycle>
+						<version>
+						  <langstring xml:lang="en">1.0</langstring>
+						</version>
+						
+						  <contribute>
+							<role>
+							  <source>
+								<langstring xml:lang="x-none">LOMv1.0</langstring>
+							  </source>
+							  <value>
+								<langstring xml:lang="en">Author</langstring>
+							  </value>
+							</role>
+							<centity>
+							  <vcard>begin:vcard
+fn:Skillcast
+end:vcard</vcard>
+							</centity>
+						  </contribute>
+						
+						<status>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Final</langstring>
+						  </value>
+						</status>
+					  </lifecycle>
+					  <metametadata>
+						<metadatascheme>1.00</metadatascheme>
+						<language>en</language>
+					  </metametadata>
+					  <technical>
+						<format>text/html</format>
+						<location>start.htm</location>
+						<requirement>
+						  <type>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Browser</langstring>
+							</value>
+						  </type>
+						  <name>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Any</langstring>
+							</value>
+						  </name>
+						  <minimumversion>5.x</minimumversion>
+						</requirement>
+						<installationremarks>
+						  <langstring xml:lang="en"></langstring>
+						</installationremarks>
+						<otherplatformrequirements>
+						  <langstring xml:lang="en"></langstring>
+						</otherplatformrequirements>
+						<duration>
+						  <datetime>00:45:00</datetime>
+						</duration>
+					  </technical>
+					  <educational>
+						<interactivitytype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Mixed</langstring>
+						  </value>
+						</interactivitytype>
+						<learningresourcetype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Exercise</langstring>
+						  </value>
+						</learningresourcetype>
+						<interactivitylevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</interactivitylevel>
+						<semanticdensity>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">high</langstring>
+						  </value>
+						</semanticdensity>
+						<intendedenduserrole>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Learner</langstring>
+						  </value>
+						</intendedenduserrole>
+						<context>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Professional Formation</langstring>
+						  </value>
+						</context>
+						<difficulty>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</difficulty>
+						<typicallearningtime>
+						  <datetime>00:45:00</datetime>
+						</typicallearningtime>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+					  </educational>
+					  <rights>
+						<cost>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">no</langstring>
+						  </value>
+						</cost>
+						<copyrightandotherrestrictions>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">yes</langstring>
+						  </value>
+						</copyrightandotherrestrictions>
+						<description>
+						  <langstring xml:lang="en"></langstring>
+						</description>
+					  </rights>
+					  <classification>
+						<purpose>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Educational Objective</langstring>
+						  </value>
+						</purpose>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<keyword>
+						  <langstring xml:lang="x-none">Modern Slavery</langstring>
+						</keyword>
+					  </classification>
+					</lom>
+				</metadata>
+				
+					</item>
+					
+				<metadata>
+					
+						<schema>ADL SCORM</schema>
+						<schemaversion>1.2</schemaversion>
+						<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+					
+					<general>
+						<keyword>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</keyword>
+						<title>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</title>
+						<catalogentry>
+							<catalog>Skillcast</catalog> 
+							<entry><langstring xml:lang="en">6BDEBEC9-B7BE-305C-A9C719BFEE9C3EB1</langstring></entry>
+						</catalogentry>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<structure>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Hierarchical</langstring>
+						  </value>
+						</structure>
+						<aggregationlevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">2</langstring>
+						  </value>
+						</aggregationlevel>
+					  </general>
+					  <lifecycle>
+						<version>
+						  <langstring xml:lang="en">1.0</langstring>
+						</version>
+						
+						  <contribute>
+							<role>
+							  <source>
+								<langstring xml:lang="x-none">LOMv1.0</langstring>
+							  </source>
+							  <value>
+								<langstring xml:lang="en">Author</langstring>
+							  </value>
+							</role>
+							<centity>
+							  <vcard>begin:vcard
+fn:Skillcast
+end:vcard</vcard>
+							</centity>
+						  </contribute>
+						
+						<status>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Final</langstring>
+						  </value>
+						</status>
+					  </lifecycle>
+					  <metametadata>
+						<metadatascheme>1.00</metadatascheme>
+						<language>en</language>
+					  </metametadata>
+					  <technical>
+						<format>text/html</format>
+						<location>start.htm</location>
+						<requirement>
+						  <type>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Browser</langstring>
+							</value>
+						  </type>
+						  <name>
+							<source>
+							  <langstring xml:lang="x-none">LOMv1.0</langstring>
+							</source>
+							<value>
+							  <langstring xml:lang="x-none">Any</langstring>
+							</value>
+						  </name>
+						  <minimumversion>5.x</minimumversion>
+						</requirement>
+						<installationremarks>
+						  <langstring xml:lang="en"></langstring>
+						</installationremarks>
+						<otherplatformrequirements>
+						  <langstring xml:lang="en"></langstring>
+						</otherplatformrequirements>
+						<duration>
+						  <datetime>00:45:00</datetime>
+						</duration>
+					  </technical>
+					  <educational>
+						<interactivitytype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Mixed</langstring>
+						  </value>
+						</interactivitytype>
+						<learningresourcetype>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Exercise</langstring>
+						  </value>
+						</learningresourcetype>
+						<interactivitylevel>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</interactivitylevel>
+						<semanticdensity>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">high</langstring>
+						  </value>
+						</semanticdensity>
+						<intendedenduserrole>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Learner</langstring>
+						  </value>
+						</intendedenduserrole>
+						<context>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Professional Formation</langstring>
+						  </value>
+						</context>
+						<difficulty>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">medium</langstring>
+						  </value>
+						</difficulty>
+						<typicallearningtime>
+						  <datetime>00:45:00</datetime>
+						</typicallearningtime>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+					  </educational>
+					  <rights>
+						<cost>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">no</langstring>
+						  </value>
+						</cost>
+						<copyrightandotherrestrictions>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">yes</langstring>
+						  </value>
+						</copyrightandotherrestrictions>
+						<description>
+						  <langstring xml:lang="en"></langstring>
+						</description>
+					  </rights>
+					  <classification>
+						<purpose>
+						  <source>
+							<langstring xml:lang="x-none">LOMv1.0</langstring>
+						  </source>
+						  <value>
+							<langstring xml:lang="x-none">Educational Objective</langstring>
+						  </value>
+						</purpose>
+						<description>
+						  <langstring xml:lang="en">Modern Slavery</langstring>
+						</description>
+						<keyword>
+						  <langstring xml:lang="x-none">Modern Slavery</langstring>
+						</keyword>
+					  </classification>
+					</lom>
+				</metadata>
+				
+				</organization>
+			</organizations>
+			<resources>
+			
+				<resource identifier="A001" type="webcontent" adlcp:scormtype="sco" href="start.htm"/>
+			
+			</resources>
+			</manifest>
+			

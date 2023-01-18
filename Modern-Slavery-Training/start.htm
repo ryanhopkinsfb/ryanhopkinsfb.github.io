@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+			
+			<html style="width:100%;height:100%;border:0;margin:0;padding:0" lang="en">
+				<head>
+					<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+					<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+					<title>Modern Slavery</title>
+					
+						<script src="js/jquery/jquery.js" type="text/javascript"></script>
+					
+					<script src="js/moduleStructure-en.js" type="text/javascript"></script>
+					<script src="js/findApi.js" type="text/javascript"></script>
+					<script type="text/javascript" src="js/skillcast/skillcastrespcore.js"></script>
+					<script>
+					
+						var audio = "off";
+					
+					var acc = "off";
+					var lang = "en";
+					
+					var usePopup = false;
+					var modlbl_bookmark = "";
+					var showWarningAfterCommitFails = false;
+					
+						function scr_finish() {
+							return true;
+						}
+						var useFrameset = false;
+					
+						function scr_start() {
+							var foundAPI = findAPI(),
+							initialize, initializeTypeof,
+							studentId, studentName,
+							head, newScript;
+							
+
+							if(foundAPI) {
+								initialize = self.scormApi.LMSInitialize("");
+								initializeTypeof = (typeof initialize);
+								if(
+									(initializeTypeof === "string" && initialize.toLowerCase() === "true")
+									||
+									(initializeTypeof === "boolean" && initialize)
+								) {
+									studentId = self.scormApi.LMSGetValue("cmi.core.student_id");
+									studentName = self.scormApi.LMSGetValue("cmi.core.student_name");
+									head = document.getElementsByTagName('head')[0];
+									newScript = document.createElement('script');
+									newScript.type = "text/javascript";
+									newScript.src = "//firstgroup.e-learningportal.com/scorm2004/deployed/index.cfm?domainId=35AF9B1B%2DD512%2D4B16%2D1C3E157EF150A5D9&sId=" + escape(studentId) + "&sName=" + escape(studentName) + "&scoId=6BDEBEC8%2DDEF8%2D0323%2D3E8E275500F3017A&nc=" + escape(Math.random());
+									head.appendChild(newScript);
+								} else {
+									errorMessage = "Error: The module could not initialize communication with the Learning Management System.<br><br>Please close this window and relaunch the module from the Learning Management System.";
+									killSession();
+								}
+							} else {
+								errorMessage = "Error: The module could not connect to the Learning Management System.<br><br>Please close this window and relaunch the module from the Learning Management System.";
+								killSession();
+							};
+						};
+					
+					</script>
+				</head>
+				<body onload="scr_start();" onunload="scr_finish();" style="width:100%;height:100%;border:0;margin:0;padding:0">
+				
+				</body>
+	`		</html>
+			

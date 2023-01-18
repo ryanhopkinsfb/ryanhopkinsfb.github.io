@@ -1,0 +1,1039 @@
+*:focus {outline:0}
+
+#timeLeftContainer {
+	margin:0;padding:10px;text-align:right;visibility:hidden;
+}
+
+a.assessmentButton, a.assessmentButton:link, a.assessmentButton:active, a.assessmentButton:disabled, a.assessmentButton:hover:not([disabled]) {
+	text-decoration:none;
+	display:inline-block;
+}
+
+a.hbbutton, input.hbbutton[type=button] {
+	border-width:0px 0px 0px 20px;
+	border-style:solid;
+	background-color:#eaeaea;
+	padding:5px 5px 5px 20px;
+	margin:0px 0px 1px 0px;
+	text-align:left;
+	font-size: 0.8em;
+	border-radius: 0;
+	display:block;
+	text-decoration:none;
+}
+a.hbbutton:disabled, input.hbbutton[type=button]:disabled {
+	color:inherit;
+	cursor:not-allowed;
+}
+a.hbbutton:hover:not([disabled]), input.hbbutton[type=button]:hover:not([disabled]) {
+	background-color:#ffffff;
+}
+a.hbsubsection, input.hbsubsection[type=button] {
+	padding-left:40px;	
+}
+a.hbcurrent, input.hbcurrent[type=button] {
+	font-weight:bold;	
+}
+#fixedDiv {
+	position:relative;
+	width:100%;
+	margin:0;
+	text-align:center;
+}
+#fixedNavContainer {
+	background-color:#cccccc;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	text-align:center;
+	z-index:1000;
+}
+#fixedMenuContainer {
+	position:absolute;
+	background-color:rgba(255,255,255,0.95);
+	height:100%;
+}
+.fixedMenuBlock {
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+}
+.fixedMenuContent {
+	padding:10px;
+}
+.fixedMenuContentTitle {
+	padding:5px 5px 5px 5px;
+}
+.fixedMenuResourceLink {
+	border-width:0px;
+	background-color:#eaeaea;
+	padding:5px 5px 5px 20px;
+	margin:0px 0px 1px 0px;
+	text-align:left;
+	font-size: 0.8em;
+	display:block;
+	text-decoration:none;
+}
+.fixedMenuResourceLink:hover {
+	background-color:#ffffff;
+}
+#fixedMenuResources {
+	background-color:#ffffff;
+}
+#fixedMenuHeader {
+	display:inline-block;
+	width:100%;
+}
+#fixedMenuTitle {
+	float:left;
+	padding:10px;
+	display:inline-block;
+	font-size:14pt!important;
+	color:#ffffff;
+	vertical-align:middle;
+}
+#fixedMenuClose {
+	display:inline-block;
+	padding:10px;
+	float:right;
+	vertical-align:middle;
+}
+#fixedNavBar {
+	display:inline-block;
+	width:100%;
+	max-width:1150px;
+}
+#fixedNavTools, #fixedNavPage, .fixedNavSpacer {
+	display:inline-block;
+}
+#fixedNavTools {
+	float:left;
+}
+#fixedNavPage {
+	float:right;
+}
+.fixedNavSpacer {
+	vertical-align:middle;
+	width:5px;
+}
+#fixedNavProgress {
+	display:inline-block;
+	vertical-align:middle;
+	padding:5px;
+	margin:5px;
+	font-size:12pt;
+}
+a.fixedNavNextButton, a.fixedNavNextButton:link, a.fixedNavNextButton:active, a.fixedNavNextButton:disabled, a.fixedNavNextButton:hover:not([disabled]),
+a.fixedNavBackButton, a.fixedNavBackButton:link, a.fixedNavBackButton:active, a.fixedNavBackButton:disabled, a.fixedNavBackButton:hover:not([disabled]),
+button.fixedNavToolButton {
+	font-family:arial;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12pt;
+	vertical-align:middle;
+	padding:5px 10px 5px 10px;
+	margin:5px;
+	border:1px solid #000000;
+	background-color:#eeeeee;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.scr_layout_table {
+	display:table;
+	border:0;
+	margin:0;
+	padding:0;
+	table-layout:fixed;
+	width:100%;
+}
+.scr_layout_row {
+	display:table-row;	
+}
+.scr_layout_cell {
+	display:table-cell;
+	text-align:left;
+}
+
+.hideinaccessible {
+	display:block;
+}
+.showinaccessible {
+	display:none;
+}
+.tooltipContent {
+    background-color: #eaeaea;
+    left: -80px;
+    border: 0;
+    font-size: 10pt;
+    padding: 5px;
+}
+#scr_progress_outer .tooltipContent {
+	top: auto !important;
+	margin-top: -5rem;
+}
+.datePicker, .ui-icon, .ui-state-default {
+	font-size: 10pt;
+}
+.menu-btn {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    vertical-align: middle;
+    z-index: 99;
+    text-align: left;
+}
+.responsive-menu {
+    display: none;
+    z-index: 99;
+    width: 1150px;
+	position:absolute;
+	left:0px;
+}
+.resp-menu-item {
+    text-align: left;
+    width: 1150px;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.expand {
+    display: block !important;
+    z-index: 99;
+    width: 1150px;
+}
+#linkedResourcesListWrapper {
+	float: left; 
+	position: absolute; 
+	vertical-align:middle; 
+	text-align: left; 
+	z-index: 100; 
+	width: 300px; 
+	right: 0px; 
+	border: 1px solid #000000; 
+	padding: 0px;
+	background-color: #eeeeee;
+}
+.linkedResourcesList {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.linkedResourcesListItem {
+    width: 290px;
+    padding: 5px;  
+    display: inline-block;
+    font-size: 9pt;
+}
+.modlbl {
+    display: block;
+    float: right;
+    vertical-align: middle;
+    visibility: visible;
+    width: 80px;
+    text-align: left;
+    margin-top: 5px;
+}
+.sideNav {
+    display: table-cell;
+    width: 50px;
+    height: 100%;
+    vertical-align: middle;
+    visibility: visible;
+}
+.topbotNav {
+    display: none;
+    height: 0px;
+    visibility: hidden;
+}
+.stage {
+    display: table;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+}
+#comments_resp {
+    display: block;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;	
+}
+.stage_inner {
+    display: table-cell;
+    min-height: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.banner {
+    display: block;
+    width: 100%;
+}
+.banner_left {
+	display: inline-block;
+	width:70%;
+	vertical-align: top;
+	text-align: left;
+}
+.banner_right {
+	display: inline-block;
+	width:30%;
+	vertical-align: top;
+	text-align: right;
+}
+.content {
+    display: block;
+    width: 100%;
+}
+.hideonsmall {
+    display: block;
+}
+.hideonlarge {
+    display: none;
+}
+.fullheight,
+.flashObject,
+.flashObjectImage {
+    height: 600px;
+}
+.fullheight90,
+.flashObject90,
+.flashObjectImage90 {
+    height: 540px;
+}
+.fullheight80,
+.flashObject80,
+.flashObjectImage80 {
+    height: 480px;
+}
+.fullheight70,
+.flashObject70,
+.flashObjectImage70 {
+    height: 420px;
+}
+.fullheight60,
+.flashObject60,
+.flashObjectImage60 {
+    height: 360px;
+}
+.fullheight50,
+.flashObject50,
+.flashObjectImage50 {
+    height: 300px;
+}
+.content_inner {
+    min-height: 600px;
+    height: auto;
+}
+
+.contentblock90,
+.contentblock80,
+.contentblock75,
+.contentblock67,
+.contentblock60,
+.contentblock50,
+.contentblock40,
+.contentblock37,
+.contentblock33,
+.contentblock25,
+.contentblock20,
+.contentblock10,
+.contentblock90hide,
+.contentblock80hide,
+.contentblock75hide,
+.contentblock67hide,
+.contentblock60hide,
+.contentblock50hide,
+.contentblock40hide,
+.contentblock37hide,
+.contentblock33hide,
+.contentblock25hide,
+.contentblock20hide,
+.contentblock10hide {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contentblock90,
+.contentblock90hide {
+    width: 90%;
+}
+.contentblock80,
+.contentblock80hide {
+    width: 80%;
+}
+.contentblock75,
+.contentblock75hide {
+    width: 75%;
+}
+.contentblock67,
+.contentblock67hide {
+    width: 66.66%;
+}
+.contentblock60,
+.contentblock60hide {
+    width: 60%;
+}
+.contentblock50,
+.contentblock50hide {
+    width: 50%;
+}
+.contentblock40,
+.contentblock40hide {
+    width: 40%;
+}
+.contentblock37,
+.contentblock37hide {
+    width: 36.66%;
+}
+.contentblock33,
+.contentblock33hide {
+    width: 33.33%;
+}
+.contentblock25,
+.contentblock25hide {
+    width: 25%;
+}
+.contentblock20,
+.contentblock20hide {
+    width: 20%;
+}
+.contentblock10,
+.contentblock10hide {
+    width: 10%;
+}
+.scrollpane {
+    overflow-x: hidden; overflow-y: scroll;
+}
+.background-container {
+    position:relative; width:100%;
+}
+.background-content {
+    left: 0px; top: 0px; width: 100%; position: absolute; overflow: hidden;
+}
+img {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 0;
+}
+h1, h2, h3, p {
+    font-size: 16pt;
+    margin-top: 0;
+}
+body, td, div, input, select, option, a, li, ul, textarea {
+    font-size: 16pt;
+}
+
+.sc_show {
+    visibility: visible;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.sc_hidden {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+}
+
+/* Flexible Assessment CLASSES */
+.assessment-block {
+	text-align:left;
+}
+
+.assessment-block-button-left {
+    text-align: left;
+}
+.assessment-block-button-center {
+    text-align: center;
+}
+.assessment-block-button-right {
+    text-align: right;
+}
+
+.assessment-stats-result-container {
+  display: inline-block;
+  text-align: left;
+  line-height: 1.525em;
+  font-size: 1.0em;
+  margin: 0px;
+}
+
+.assessment-stats-result-container:last-child {
+  margin-right: 0;
+}
+
+.assessment-stats-result-container + .assessmentButton,
+.assessment-stats-result-container + .bigbutton:hover {
+  vertical-align: top;
+  margin-top: 14px;
+}
+
+.assessmentStats {
+  font-size: 12pt;
+}
+
+.assessmentScoreContainer {
+	margin: 10px 0px 10px 0px;
+}
+
+.assessmentScoreContainer .user {
+  display: inline-block;
+}
+
+.assessmentIcon {
+  font-size: 2em;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: transparent;
+}
+
+.assessmentScoreBar {
+	background-color: currentColor;
+	margin:10px 0px 10px 0px;
+	border-radius: 15px;
+	overflow:hidden;
+	vertical-align: middle;
+	display: inline-block;
+	width: 80%;
+	height: 12px;
+}
+
+.assessmentPill {
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  min-width: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.empty {
+  border: 2px solid currentColor;
+  background-color: transparent;
+}
+
+.assessmentScoreValue {
+	display:inline-block;
+	-webkit-transition-property: width;
+	-moz-transition-property: width;
+	transition-property: width;
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	transition-duration: 500ms;
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	-moz-transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	transition-timing-function: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+	width: 0%;
+	max-width: 100%;
+	height: inherit;
+	vertical-align: top;
+}
+
+.assessmentScoreText,
+.assessmentAttempts {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.assessmentObjectiveLabel,
+.assessmentOtherPlayers {
+	display:inline-block;
+	padding:10px 0px 10px 0px;
+}
+
+.assessmentScore,
+.assessmentMaxScore,
+.assessmentBestScore,
+.assessmentTotalPlayers,
+.assessmentHighestScore,
+.assessmentLowestScore,
+.assessmentAverageScore,
+.assessmentRankPlayers,
+.assessmentAttemptsHeader {
+	font-weight:bold;	
+}
+.assessmentSection {
+	font-weight:bold;
+	padding:15px 0px 15px 0px;
+}
+.visually-hidden {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.assessment-analytics>ol:first-child {
+	padding-left:0px;
+}
+
+/*assessment LeaderBaord styles Start*/
+.assessmentOlLeaderBoard {
+  display: inline-block;
+  vertical-align: top;
+  counter-reset: leaderboard-counter;
+  list-style-type: none;
+  padding: 10px 0px 10px 10px;
+  width: 33.3%;
+  margin-top:0;
+  margin-bottom: 0;
+}
+.assessmentOlLeaderBoard > li {
+  display: list-item;
+  counter-increment: leaderboard-counter;
+  margin-bottom: 8px;
+}
+.assessmentOlLeaderBoard > li:before {
+  content: counter(leaderboard-counter);
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+  min-width: 45px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.assessmentInnerUl {
+  display: inline-block;
+  padding: 0px;
+}
+.assessmentInnerUl > :first-child {
+	margin-left: 0px;
+}
+.assessmentInnerLi {
+  display: inline-block;
+  margin-left:8px;
+  font-weight: bold;
+}
+.truncate {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mediumElevation { margin: 0; }
+.mediumElevation > .assessmentSection {
+	padding-left: 20px;
+}
+.contentblock50.vAlignTop {
+	vertical-align: top;
+}
+.spacerObjective  {
+  min-height: 4.167em;
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+	.assessmentOlLeaderBoard {
+		width:55%;
+	}
+	
+	.truncate {
+		width: 175px;
+  	}
+  	.spacerObjective {
+    	display: none;
+  	}
+}
+
+@media screen and (min-width: 768px) {
+  .assessmentPill,
+  .assessmentOlLeaderBoard > li:before {
+		min-width: 55px;
+  }
+
+	.assessmentOlLeaderBoard {
+		width: 43.3%;
+	}
+	
+	.truncate {
+		width: 150px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.assessmentOlLeaderBoard {
+		width:33.3%;
+	}
+}
+
+/*assessment LeaderBaord styles END*/
+
+/* Flexible Assessment CLASSES END */
+
+@media screen {
+    @-ms-viewport {
+        width: device-width;
+    }
+}
+@media screen and (max-width: 1500px) {
+	body, h1, h2, h3, p, td, div, input, select, option, a, li, ul, textarea {
+		font-size: 14pt;
+	}
+    .sideNav {
+        display: table-cell;
+        width: 50px;
+        height: 100%;
+        vertical-align: middle;
+        visibility: visible;
+    }
+    .topbotNav {
+        display: none;
+        height: 0px;
+        visibility: hidden;
+    }
+    .stage {
+        display: table;
+        max-width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stage_inner {
+        display: table-cell;
+        min-height: 100%;
+        vertical-align: middle;
+    }
+    .fullheight,
+    .flashObject,
+    .flashObjectImage {
+        height: 500px;
+    }
+    .fullheight90,
+    .flashObject90,
+    .flashObjectImage90 {
+        height: 450px;
+    }
+    .fullheight80,
+    .flashObject80,
+    .flashObjectImage80 {
+        height: 400px;
+    }
+    .fullheight70,
+    .flashObject70,
+    .flashObjectImage70 {
+        height: 350px;
+    }
+    .fullheight60,
+    .flashObject60,
+    .flashObjectImage60 {
+        height: 300px;
+    }
+    .fullheight50,
+    .flashObject50,
+    .flashObjectImage50 {
+        height: 250px;
+    }
+    .content_inner {
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 1250px) {
+	body, h1, h2, h3, p, td, div, input, select, option, a, li, ul, textarea {
+		font-size: 12pt;
+	}
+    .sideNav {
+        display: table-cell;
+        width: 50px;
+        height: 100%;
+        vertical-align: middle;
+        visibility: visible;
+    }
+    .topbotNav {
+        display: none;
+        height: 0px;
+        visibility: hidden;
+    }
+    .stage {
+        display: table;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	#comments_resp {
+		max-width: 1000px;
+	}
+    .stage_inner {
+        display: table-cell;
+        min-height: 100%;
+        vertical-align: middle;
+    }
+    .fullheight,
+    .flashObject,
+    .flashObjectImage {
+        height: 400px;
+    }
+    .fullheight90,
+    .flashObject90,
+    .flashObjectImage90 {
+        height: 360px;
+    }
+    .fullheight80,
+    .flashObject80,
+    .flashObjectImage80 {
+        height: 320px;
+    }
+    .fullheight70,
+    .flashObject70,
+    .flashObjectImage70 {
+        height: 280px;
+    }
+    .fullheight60,
+    .flashObject60,
+    .flashObjectImage60 {
+        height: 240px;
+    }
+    .fullheight50,
+    .flashObject50,
+    .flashObjectImage50 {
+        height: 200px;
+    }
+    .content_inner {
+        min-height: 400px;
+    }
+    .responsive-menu {
+        width: 900px;
+    }
+    .resp-menu-item {
+        width: 900px;
+    }
+    .expand {
+        width: 900px;
+    }
+}
+@media screen and (max-width: 1000px) {
+	body, h1, h2, h3, p, td, div, input, select, option, a, li, ul, textarea {
+		font-size: 10pt;
+	}
+    .stage {
+        width: 100%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	#comments_resp {
+		max-width: 900px;
+	}
+    .stage_inner {
+        display: table-cell;
+        min-height: 100px;
+        vertical-align: middle;
+    }
+    .sideNav {
+        display: none;
+        width: 0px;
+        visibility: hidden;
+    }
+    .topbotNav {
+        display: block;
+        width: 100%;
+        height: 50px;
+        vertical-align: middle;
+        visibility: visible;
+        text-align: center;
+    }
+    .fullheight,
+    .flashObject,
+    .flashObjectImage {
+        height: 400px;
+    }
+    .fullheight90,
+    .flashObject90,
+    .flashObjectImage90 {
+        height: 360px;
+    }
+    .fullheight80,
+    .flashObject80,
+    .flashObjectImage80 {
+        height: 320px;
+    }
+    .fullheight70,
+    .flashObject70,
+    .flashObjectImage70 {
+        height: 280px;
+    }
+    .fullheight60,
+    .flashObject60,
+    .flashObjectImage60 {
+        height: 240px;
+    }
+    .fullheight50,
+    .flashObject50,
+    .flashObjectImage50 {
+        height: 200px;
+    }
+    .content_inner {
+        min-height: 400px;
+    }
+    .responsive-menu {
+        width: 800px;
+    }
+    .resp-menu-item {
+        width: 800px;
+    }
+    .expand {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 600px) {
+    table.responsive-table {display:block}
+    table.responsive-table tr {display:block}
+    table.responsive-table tr td {display:block; width:100%!important}
+	.fixedMenuBlock {
+		width:100%;
+	}
+    .module-title {
+        font-size: 0;
+    }
+    .modlbl {
+        display: none;
+        visibility: hidden;
+        width: 0px;
+    }
+    ;
+    .createdFor {
+        display: inline-block;
+        visibility: visible;
+    }
+    .responsive-menu {
+        width: 300px;
+    }
+    .resp-menu-item {
+        width: 300px;
+    }
+    .expand {
+        width: 300px;
+    }
+	.banner_left {
+		width:20%;
+	}
+	.banner_right {
+		width:80%;
+	}
+    .hideonsmall {
+        display: none;
+    }
+    .hideonlarge {
+        display: block;
+    }
+    .contentblock90,
+    .contentblock80,
+    .contentblock75,
+    .contentblock67,
+    .contentblock60,
+    .contentblock50,
+    .contentblock40,
+    .contentblock37,
+    .contentblock33,
+    .contentblock25,
+    .contentblock20,
+    .contentblock10 {
+        display: block;
+        width: 100%;
+    }
+    .contentblock90hide,
+    .contentblock80hide,
+    .contentblock75hide,
+    .contentblock67hide,
+    .contentblock60hide,
+    .contentblock50hide,
+    .contentblock40hide,
+    .contentblock37hide,
+    .contentblock33hide,
+    .contentblock25hide,
+    .contentblock20hide,
+    .contentblock10hide {
+        display: none;
+    }
+    .fullheight,
+    .flashObject,
+    .flashObjectImage,
+    .fullheight90,
+    .flashObject90,
+    .flashObjectImage90,
+    .fullheight80,
+    .flashObject80,
+    .flashObjectImage80,
+    .fullheight70,
+    .flashObject70,
+    .flashObjectImage70,
+    .fullheight60,
+    .flashObject60,
+    .flashObjectImage60,
+    .fullheight50,
+    .flashObject50,
+    .flashObjectImage50 {
+        height: auto;
+    }
+    .scrollpane {
+        overflow-x: hidden; overflow-y: visible;
+    }
+    .background-container,
+    .background-content {
+        display:none;
+    }
+
+    /*Flexible Styles Start*/
+    
+    .assessmentOlLeaderBoard {
+      width:100%;
+    }
+    
+    .mediumElevation .assessment-objective-analytics {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    .assessment-objective-analytics > .contentRow:first-child  {
+      display: none;
+    }
+    
+    .contentRow {
+      padding-left: 10px;
+      width: 75%;
+      display: inline-block;
+      vertical-align: top;
+      min-height: 160px;
+    }
+    .assessmentScoreBar {
+      width: 69%;
+    }
+    
+    .assessmentObjectiveLabel{
+      display: block;
+    }
+
+    .assessmentObjectiveLabel[aria-hidden=true] {
+      display: none;
+    }
+
+    .assessment-objective-analytics .assessmentStats > .assessmentScoreText {
+      display: block;
+    }
+
+    .mediumElevation > .assessmentSection{
+      padding-left:10px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+
+    .contentblock25 span.visually-hidden {
+      width: auto;
+      height: auto;
+      position: static;
+      overflow: initial;
+    }
+    /*Flexible Styles End*/
+}

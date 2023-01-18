@@ -1,0 +1,18 @@
+<html>
+<head>
+	<script src="js/polyfill/promise.min.js"></script>
+	<script src="js/jspdf/dist/jspdf.min.js"></script>
+	<script>
+	function pdfmake(filename,elemName,callback) {
+		var targetElem = document.getElementById(elemName);
+		var pdf = new jsPDF('p', 'mm', 'a4');
+		pdf.addHTML(targetElem,function() {
+			pdf.save(filename);
+			parent[callback]();
+		});
+	};
+	</script>
+</head>
+<body>
+</body>
+</html>

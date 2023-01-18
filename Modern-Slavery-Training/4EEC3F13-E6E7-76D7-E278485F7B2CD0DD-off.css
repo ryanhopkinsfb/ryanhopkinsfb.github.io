@@ -1,0 +1,131 @@
+
+#elem_1348 {
+    
+                display:inline-block;
+            
+            width:100%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1348_align {
+    position:relative;
+    
+            left:0px;
+            visibility:hidden;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1348_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1348 {display:block; width:100%;}
+    
+}
+#elem_1349 {
+    
+                display:inline-block;
+            
+            width:50%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1349_align {
+    position:relative;
+    
+            left:-1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1349_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1349 {display:block; width:100%;}
+    
+}
+#elem_1350 {
+    
+                display:inline-block;
+            
+            width:50%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1350_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1350_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1350 {display:block; width:100%;}
+    
+}
+#elem_1351 {
+    
+                display:inline-block;
+            
+            width:100%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1351_align {
+    position:relative;
+    
+            left:0px;
+            visibility:hidden;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1351_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1351 {display:block; width:100%;}
+    
+}

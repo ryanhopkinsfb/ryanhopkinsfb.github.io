@@ -1,0 +1,162 @@
+
+#elem_1338 {
+    
+                display:inline-block;
+            
+            width:100%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1338_align {
+    position:relative;
+    
+            left:0px;
+            visibility:hidden;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1338_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1338 {display:block; width:100%;}
+    
+}
+#elem_1339 {
+    
+                display:inline-block;
+            
+            width:25%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1339_align {
+    position:relative;
+    
+            left:-1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1339_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1339 {display:block; width:100%;}
+    
+}
+#elem_1340 {
+    
+                display:inline-block;
+            
+            width:25%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1340_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1340_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1340 {display:block; width:100%;}
+    
+}
+#elem_1341 {
+    
+                display:inline-block;
+            
+            width:25%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1341_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1341_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1341 {display:block; width:100%;}
+    
+}
+#elem_1342 {
+    
+                display:inline-block;
+            
+            width:25%; 
+        
+    vertical-align:top;
+    
+        text-align:left;
+    
+}
+#elem_1342_align {
+    position:relative;
+    
+            left:1150px;
+        
+    display:block;
+    text-align:left;
+    
+        margin-left:0;
+        margin-right:auto;
+    
+}
+#elem_1342_inner {
+    display:block;
+    
+}
+@media only screen and (max-width: 600px) {
+      
+        #elem_1342 {display:block; width:100%;}
+    
+}

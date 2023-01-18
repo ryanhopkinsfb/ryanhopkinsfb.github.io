@@ -1,0 +1,71 @@
+body, h1, h2, h3, p, td, div, input, select, option, a, li, ul {
+	font-size: 12pt;
+}
+.module-title {
+    font-size: 12pt;
+}
+.sideNav {
+    display: table-cell;
+    width: 50px;
+    height: 100%;
+    vertical-align: middle;
+    visibility: visible;
+}
+.topbotNav {
+    display: none;
+    height: 0px;
+    visibility: hidden;
+}
+.stage {
+    display: table;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stage_inner {
+    display: table-cell;
+    min-height: 100%;
+    vertical-align: middle;
+}
+.fullheight,
+.flashObject,
+.flashObjectImage {
+    height: 400px;
+}
+.fullheight90,
+.flashObject90,
+.flashObjectImage90 {
+    height: 360px;
+}
+.fullheight80,
+.flashObject80,
+.flashObjectImage80 {
+    height: 320px;
+}
+.fullheight70,
+.flashObject70,
+.flashObjectImage70 {
+    height: 280px;
+}
+.fullheight60,
+.flashObject60,
+.flashObjectImage60 {
+    height: 240px;
+}
+.fullheight50,
+.flashObject50,
+.flashObjectImage50 {
+    height: 200px;
+}
+.content_inner {
+    height: 400px;
+}
+.responsive-menu {
+    width: 900px;
+}
+.resp-menu-item {
+    width: 900px;
+}
+.expand {
+    width: 900px;
+}
